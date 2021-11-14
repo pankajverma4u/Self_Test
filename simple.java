@@ -1,35 +1,27 @@
-import java.util.Scanner;
+// This is a simple Java program.
 
+// FileName : "HelloWorld.java".
 
+  
 
-public class HelloWorld {
+class HelloWorld
 
+{
 
+    // Your program begins with a call to main().
 
-    public static void main(String[] args) {
+    // Prints "Hello, World" to the terminal window.
 
+    public static void main(String args[])
 
+    {
 
-        // Creates a reader instance which takes
-
-        // input from standard input - keyboard
-
-        Scanner reader = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-
-
-
-        // nextInt() reads the next integer from the keyboard
-
-        int number = reader.nextInt();
-
-
-
-        // println() prints the following line to the output screen
-
-        System.out.println("You entered: " + number);
+        System.out.println("Hello, World");
 
     }
 
 }
+
+
+
+
